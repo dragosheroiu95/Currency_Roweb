@@ -39,6 +39,9 @@ class HomeScreen extends React.Component {
                 // Fetch exchange rates on screen focus
                 fetchExchangeRates(this.props.base);
             }
+            if (this.interval) {
+                clearInterval(this.interval);
+            }
             // Fetch every ${timer} seconds
             this.interval = setInterval(() => {
                 if (!this.props.isFetching && this.props.isConnected) {

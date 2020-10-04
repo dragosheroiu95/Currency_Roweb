@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'space-between',
         padding: 20,
-        flex: 0.5
+        flex: 0.3
     },
     currencyContainer: {
         flexDirection: 'row',

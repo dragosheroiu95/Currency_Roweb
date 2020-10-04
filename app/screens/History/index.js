@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, View, Text } from 'react-native';
-import { SCREENS } from '../../navigation';
+import { SCREENS } from '../../helpers/constants';
 
 export class HistoryScreen extends React.Component {
 

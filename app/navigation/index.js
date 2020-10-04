@@ -1,12 +1,8 @@
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HistoryScreen, HomeScreen } from '../screens/index';
+import { SCREENS } from '../helpers/constants';
 const Tab = createBottomTabNavigator();
-
-export const SCREENS = {
-    HOME_SCREEN: 'HomeScreen',
-    HISTORY_SCREEN: 'HistoryScreen',
-}
 
 export default function MainNavigationTabs() {
     return (

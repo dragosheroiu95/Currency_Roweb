@@ -1,6 +1,7 @@
-import { HomeScreen } from './Home/index'
-import { HistoryScreen } from './History/index'
+import _HomeScreen from './Home'
+import _HistoryScreen from './History'
+import _SettingsScreen from './Settings'
 
-export {
-    HomeScreen, HistoryScreen
-}
+export const HomeScreen = _HomeScreen;
+export const HistoryScreen = _HistoryScreen;
+export const SettingsScreen = _SettingsScreen;

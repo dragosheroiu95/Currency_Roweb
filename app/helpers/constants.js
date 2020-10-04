@@ -1,5 +1,6 @@
-
 export const SCREENS = {
-    HOME_SCREEN: 'HomeScreen',
-    HISTORY_SCREEN: 'HistoryScreen',
+    DASHBOARD_SCREEN: 'Acasă',
+    HOME_SCREEN: 'Dashboard',
+    HISTORY_SCREEN: 'Istoric',
+    SETTINGS_SCREEN: 'Setări',
 }

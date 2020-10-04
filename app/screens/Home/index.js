@@ -15,10 +15,12 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { NavigationEvents } from 'react-navigation';
 import Carousel from 'react-native-snap-carousel';
+import moment from 'moment';
 
-import styles from './styles'
+import styles, { width } from './styles'
 import actions from '../../actions/exchangeRatesAction'
 import { CURRENCY_FLAG } from '../../helpers/config';
+
 
 class HomeScreen extends React.Component {
 
@@ -58,24 +60,14 @@ class HomeScreen extends React.Component {
     _renderItem({ item, index }) {
         const { exchangeRates } = this.props;
         return (
-            <View key={item} style={{
-                backgroundColor: 'floralwhite',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                borderRadius: 250,
-                height: 250,
-                padding: 50,
-                marginLeft: 25,
-                marginRight: 25,
-            }}>
+            <View key={item} style={styles.carouselItem}>
                 <Image
-                    style={{ width: 50, height: 50 }}
+                    style={styles.carouselItemImage}
                     source={{ uri: CURRENCY_FLAG(item) }}
                 ></Image>
-                <View style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                    <Text style={{ fontSize: 30, color: 'black' }}>{item}</Text>
-                    <Text>{exchangeRates[item] || '- -'}</Text>
+                <View style={styles.carouselItemDetailsWrapper}>
+                    <Text style={styles.carouselItemTitle}>{item}</Text>
+                    <Text>{exchangeRates ? exchangeRates[item] : '- -'}</Text>
                 </View>
             </View>
 
@@ -87,28 +79,28 @@ class HomeScreen extends React.Component {
         const currenciesToShow = currencies.filter(currency => currency !== base);
 
         return (
-            <SafeAreaView style={{ flex: 1 }}>
-                <View style={{ flexDirection: 'column', justifyContent: 'space-between', padding: 20, flex: 0.5 }}>
-                    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <SafeAreaView style={styles.container}>
+                <View style={styles.metadataSectionContainer}>
+                    <View style={styles.currencyContainer}>
                         <Text>Monedă:</Text>
                         <Image
-                            style={{ width: 25, height: 25, marginHorizontal: 10 }}
+                            style={styles.currencyImage}
                             source={{ uri: CURRENCY_FLAG(base) }}
                         ></Image>
                         <Text>{base}</Text>
                     </View>
-                    <Text>Dată: {fetchedDate}</Text>
+                    <Text>Dată: {fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text>
                     <Text>Date actualizate la fiecare {timer / 1000} secunde</Text>
                     <Text>Status: {isConnected ? 'Online' : 'Offline'}</Text>
                 </View>
-                <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+                <View style={styles.carouselContainer}>
                     <Carousel
                         layout={'default'}
                         ref={ref => this.carousel = ref}
                         data={currenciesToShow}
-                        sliderWidth={300}
-                        itemWidth={300}
-                        renderItem={({ item, index }) => this._renderItem({ item, index, exchangeRates })}
+                        sliderWidth={width / 1.25}
+                        itemWidth={width / 1.25}
+                        renderItem={({ item, index }) => this._renderItem({ item, index })}
                         onSnapToItem={index => this.setState({ activeIndex: index })} />
                 </View>
             </SafeAreaView >

@@ -5,6 +5,7 @@ import { Picker } from '@react-native-community/picker';
 
 import actions from '../../actions/exchangeRatesAction'
 import { SCREENS } from '../../helpers/constants';
+import styles from './styles'
 
 class SettingsScreen extends React.Component {
 
@@ -19,12 +20,12 @@ class SettingsScreen extends React.Component {
         } = this.props;
 
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'space-evenly' }}>
-                <View style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+            <View style={styles.container}>
+                <View style={styles.settingWrapper}>
                     <Text>Monedă</Text>
                     <Picker
                         selectedValue={base}
-                        style={{ height: 50, width: 100 }}
+                        style={styles.pickerStyle}
                         onValueChange={(itemValue, itemIndex) =>
                             selectBase(itemValue)
                         }>
@@ -32,11 +33,11 @@ class SettingsScreen extends React.Component {
                     </Picker>
                 </View>
 
-                <View style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                <View style={styles.settingWrapper}>
                     <Text>Timpul de reîmprospătare (secunde)</Text>
                     <Picker
                         selectedValue={timer}
-                        style={{ height: 50, width: 100 }}
+                        style={styles.pickerStyle}
                         onValueChange={(itemValue, itemIndex) =>
                             selectTimer(itemValue)
                         }>

@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 
 function NavigationTabs() {
     return (
-        <Tab.Navigator tabBarOptions={{ tabStyle: { justifyContent: 'center' } }}>
+        <Tab.Navigator tabBarOptions={{ style: { backgroundColor: 'rgba(26, 255, 146, 0.5)' }, tabStyle: { justifyContent: 'center' }, inactiveBackgroundColor: 'rgb(234,232,228)', activeTintColor: 'gray', activeBackgroundColor: 'rgba(26, 255, 146, 1)', allowFontScaling: true }}>
             <Tab.Screen name={SCREENS.DASHBOARD_SCREEN} component={HomeScreen} />
             <Tab.Screen name={SCREENS.HISTORY_SCREEN} component={HistoryScreen} />
             <Tab.Screen name={SCREENS.SETTINGS_SCREEN} component={SettingsScreen} />

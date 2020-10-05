@@ -5,11 +5,11 @@ export default styles = StyleSheet.create({
         position: 'absolute',
         bottom: 0,
         width: '100%',
-        backgroundColor: 'red',
+        backgroundColor: 'rgb(255,250,205)',
         alignItems: 'center',
     },
     connectionText: {
-        color: 'white',
+        color: 'gray',
         fontSize: 8,
         fontWeight: 'bold',
     },

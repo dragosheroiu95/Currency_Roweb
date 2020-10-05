@@ -7,7 +7,8 @@ export const width = Dimensions.get("window").width
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        backgroundColor: 'rgba(26, 255, 146, 0.5)'
     },
     metadataSectionContainer: {
         flexDirection: 'column',
@@ -17,11 +18,16 @@ const styles = StyleSheet.create({
     },
     currencyContainer: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingBottom: 50
+    },
+    currencyContainerTitle: {
+        fontSize: 30,
     },
     currencyImage: {
-        width: 25,
-        height: 25,
+        width: 40,
+        height: 40,
         marginHorizontal: 10
     },
     carouselContainer: {
@@ -31,7 +37,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     carouselItem: {
-        backgroundColor: 'floralwhite',
+        backgroundColor: 'rgb(255,250,205)',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
@@ -54,5 +60,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: 'black'
     },
+    date: {
+    }
 });
 export default styles;

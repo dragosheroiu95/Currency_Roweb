@@ -85,14 +85,13 @@ class HomeScreen extends React.Component {
             <SafeAreaView style={styles.container}>
                 <View style={styles.metadataSectionContainer}>
                     <View style={styles.currencyContainer}>
-                        <Text>Monedă:</Text>
                         <Image
                             style={styles.currencyImage}
                             source={{ uri: CURRENCY_FLAG(base) }}
                         ></Image>
-                        <Text>{base}</Text>
+                        <Text style={styles.currencyContainerTitle}>{base}</Text>
                     </View>
-                    <Text>Dată: {fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text>
+                    <Text>Dată: <Text style={styles.date}>{fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text></Text>
                     <Text>Date actualizate la fiecare {timer / 1000} secunde</Text>
                     <Text>Status: {isConnected ? 'Online' : 'Offline'}</Text>
                 </View>

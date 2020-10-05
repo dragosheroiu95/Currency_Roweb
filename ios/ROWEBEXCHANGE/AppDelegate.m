@@ -23,6 +23,12 @@ static void InitializeFlipper(UIApplication *application) {
 }
 #endif
 
+// https://github.com/facebook/react-native/issues/16376#issuecomment-350523177
+#if RCT_DEV && __has_include(<React/RCTDevLoadingView.h>)
+#import <React/RCTDevLoadingView.h>
+#endif
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -32,8 +38,14 @@ static void InitializeFlipper(UIApplication *application) {
 #endif
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
+
+  // https://github.com/facebook/react-native/issues/16376#issuecomment-350523177
+  #if RCT_DEV && __has_include(<React/RCTDevLoadingView.h>)
+  [bridge moduleForClass:[RCTDevLoadingView class]];
+  #endif
+
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                   moduleName:@"Currency"
+                                                   moduleName:@"ROWEBEXCHANGE"
                                             initialProperties:nil];
 
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];

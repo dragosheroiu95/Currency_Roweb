@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CurrencyTests.m */; };
+		00E356F31AD99517003FC87E /* ROWEBEXCHANGETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ROWEBEXCHANGETests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* CurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CurrencyTests.m */; };
-		4913D98DAA3A912AF8429033 /* libPods-Currency-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725E7047E6ABB39BD7A900C5 /* libPods-Currency-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ROWEBEXCHANGETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ROWEBEXCHANGETests.m */; };
+		4913D98DAA3A912AF8429033 /* libPods-ROWEBEXCHANGE-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725E7047E6ABB39BD7A900C5 /* libPods-ROWEBEXCHANGE-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		92ED5F213717653E2C26E4BF /* libPods-Currency-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E655341DB21E186CC948FE6 /* libPods-Currency-tvOS.a */; };
-		C726A262F40D32A88A047B42 /* libPods-Currency-CurrencyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEF5BB57F86A88D6CD1C03F /* libPods-Currency-CurrencyTests.a */; };
-		E123A9DC7F6F4716A6C274D0 /* libPods-Currency.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF9D632AD12CC659F8423F8 /* libPods-Currency.a */; };
+		92ED5F213717653E2C26E4BF /* libPods-ROWEBEXCHANGE-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E655341DB21E186CC948FE6 /* libPods-ROWEBEXCHANGE-tvOS.a */; };
+		C726A262F40D32A88A047B42 /* libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEF5BB57F86A88D6CD1C03F /* libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a */; };
+		E123A9DC7F6F4716A6C274D0 /* libPods-ROWEBEXCHANGE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF9D632AD12CC659F8423F8 /* libPods-ROWEBEXCHANGE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Currency;
+			remoteInfo = ROWEBEXCHANGE;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Currency-tvOS";
+			remoteInfo = "ROWEBEXCHANGE-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* CurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ROWEBEXCHANGETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROWEBEXCHANGETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Currency/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Currency/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Currency/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Currency/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Currency/main.m; sourceTree = "<group>"; };
-		1BEF5BB57F86A88D6CD1C03F /* libPods-Currency-CurrencyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-CurrencyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* Currency-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Currency-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E655341DB21E186CC948FE6 /* libPods-Currency-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		405B9CFD659F121A15DA06FE /* Pods-Currency-CurrencyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-CurrencyTests.release.xcconfig"; path = "Target Support Files/Pods-Currency-CurrencyTests/Pods-Currency-CurrencyTests.release.xcconfig"; sourceTree = "<group>"; };
-		658D0B979D45540938C75B75 /* Pods-Currency-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Currency-tvOSTests/Pods-Currency-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		725E7047E6ABB39BD7A900C5 /* libPods-Currency-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Currency/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8247F4C6E87F70878256E182 /* Pods-Currency-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Currency-tvOSTests/Pods-Currency-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		875D043CEC12FDDE410A1AF3 /* Pods-Currency-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Currency-tvOS/Pods-Currency-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		93737801675BB3AAE83A4240 /* Pods-Currency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency.debug.xcconfig"; path = "Target Support Files/Pods-Currency/Pods-Currency.debug.xcconfig"; sourceTree = "<group>"; };
-		BB25768666FA63544000B003 /* Pods-Currency-CurrencyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-CurrencyTests.debug.xcconfig"; path = "Target Support Files/Pods-Currency-CurrencyTests/Pods-Currency-CurrencyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BFE359B59A936EFF334E5612 /* Pods-Currency-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Currency-tvOS/Pods-Currency-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BFF9D632AD12CC659F8423F8 /* libPods-Currency.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* ROWEBEXCHANGETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROWEBEXCHANGETests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ROWEBEXCHANGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROWEBEXCHANGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ROWEBEXCHANGE/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ROWEBEXCHANGE/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ROWEBEXCHANGE/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ROWEBEXCHANGE/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ROWEBEXCHANGE/main.m; sourceTree = "<group>"; };
+		1BEF5BB57F86A88D6CD1C03F /* libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ROWEBEXCHANGE-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ROWEBEXCHANGE-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E655341DB21E186CC948FE6 /* libPods-ROWEBEXCHANGE-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROWEBEXCHANGE-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405B9CFD659F121A15DA06FE /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.release.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.release.xcconfig"; sourceTree = "<group>"; };
+		658D0B979D45540938C75B75 /* Pods-ROWEBEXCHANGE-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-tvOSTests/Pods-ROWEBEXCHANGE-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		725E7047E6ABB39BD7A900C5 /* libPods-ROWEBEXCHANGE-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROWEBEXCHANGE-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ROWEBEXCHANGE/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8247F4C6E87F70878256E182 /* Pods-ROWEBEXCHANGE-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-tvOSTests/Pods-ROWEBEXCHANGE-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		875D043CEC12FDDE410A1AF3 /* Pods-ROWEBEXCHANGE-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-tvOS/Pods-ROWEBEXCHANGE-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		93737801675BB3AAE83A4240 /* Pods-ROWEBEXCHANGE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE.debug.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE/Pods-ROWEBEXCHANGE.debug.xcconfig"; sourceTree = "<group>"; };
+		BB25768666FA63544000B003 /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.debug.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE359B59A936EFF334E5612 /* Pods-ROWEBEXCHANGE-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE-tvOS/Pods-ROWEBEXCHANGE-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF9D632AD12CC659F8423F8 /* libPods-ROWEBEXCHANGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROWEBEXCHANGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED58E7F8C0925093A61DE01A /* Pods-Currency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency.release.xcconfig"; path = "Target Support Files/Pods-Currency/Pods-Currency.release.xcconfig"; sourceTree = "<group>"; };
+		ED58E7F8C0925093A61DE01A /* Pods-ROWEBEXCHANGE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROWEBEXCHANGE.release.xcconfig"; path = "Target Support Files/Pods-ROWEBEXCHANGE/Pods-ROWEBEXCHANGE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726A262F40D32A88A047B42 /* libPods-Currency-CurrencyTests.a in Frameworks */,
+				C726A262F40D32A88A047B42 /* libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E123A9DC7F6F4716A6C274D0 /* libPods-Currency.a in Frameworks */,
+				E123A9DC7F6F4716A6C274D0 /* libPods-ROWEBEXCHANGE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ED5F213717653E2C26E4BF /* libPods-Currency-tvOS.a in Frameworks */,
+				92ED5F213717653E2C26E4BF /* libPods-ROWEBEXCHANGE-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4913D98DAA3A912AF8429033 /* libPods-Currency-tvOSTests.a in Frameworks */,
+				4913D98DAA3A912AF8429033 /* libPods-ROWEBEXCHANGE-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CurrencyTests */ = {
+		00E356EF1AD99517003FC87E /* ROWEBEXCHANGETests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CurrencyTests.m */,
+				00E356F21AD99517003FC87E /* ROWEBEXCHANGETests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CurrencyTests;
+			path = ROWEBEXCHANGETests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Currency */ = {
+		13B07FAE1A68108700A75B9A /* ROWEBEXCHANGE */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Currency;
+			name = ROWEBEXCHANGE;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				BFF9D632AD12CC659F8423F8 /* libPods-Currency.a */,
-				1BEF5BB57F86A88D6CD1C03F /* libPods-Currency-CurrencyTests.a */,
-				3E655341DB21E186CC948FE6 /* libPods-Currency-tvOS.a */,
-				725E7047E6ABB39BD7A900C5 /* libPods-Currency-tvOSTests.a */,
+				BFF9D632AD12CC659F8423F8 /* libPods-ROWEBEXCHANGE.a */,
+				1BEF5BB57F86A88D6CD1C03F /* libPods-ROWEBEXCHANGE-ROWEBEXCHANGETests.a */,
+				3E655341DB21E186CC948FE6 /* libPods-ROWEBEXCHANGE-tvOS.a */,
+				725E7047E6ABB39BD7A900C5 /* libPods-ROWEBEXCHANGE-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Currency */,
+				13B07FAE1A68108700A75B9A /* ROWEBEXCHANGE */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CurrencyTests */,
+				00E356EF1AD99517003FC87E /* ROWEBEXCHANGETests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E817963601A2FB7F313F87FC /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Currency.app */,
-				00E356EE1AD99517003FC87E /* CurrencyTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Currency-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Currency-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ROWEBEXCHANGE.app */,
+				00E356EE1AD99517003FC87E /* ROWEBEXCHANGETests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		E817963601A2FB7F313F87FC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93737801675BB3AAE83A4240 /* Pods-Currency.debug.xcconfig */,
-				ED58E7F8C0925093A61DE01A /* Pods-Currency.release.xcconfig */,
-				BB25768666FA63544000B003 /* Pods-Currency-CurrencyTests.debug.xcconfig */,
-				405B9CFD659F121A15DA06FE /* Pods-Currency-CurrencyTests.release.xcconfig */,
-				BFE359B59A936EFF334E5612 /* Pods-Currency-tvOS.debug.xcconfig */,
-				875D043CEC12FDDE410A1AF3 /* Pods-Currency-tvOS.release.xcconfig */,
-				658D0B979D45540938C75B75 /* Pods-Currency-tvOSTests.debug.xcconfig */,
-				8247F4C6E87F70878256E182 /* Pods-Currency-tvOSTests.release.xcconfig */,
+				93737801675BB3AAE83A4240 /* Pods-ROWEBEXCHANGE.debug.xcconfig */,
+				ED58E7F8C0925093A61DE01A /* Pods-ROWEBEXCHANGE.release.xcconfig */,
+				BB25768666FA63544000B003 /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.debug.xcconfig */,
+				405B9CFD659F121A15DA06FE /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.release.xcconfig */,
+				BFE359B59A936EFF334E5612 /* Pods-ROWEBEXCHANGE-tvOS.debug.xcconfig */,
+				875D043CEC12FDDE410A1AF3 /* Pods-ROWEBEXCHANGE-tvOS.release.xcconfig */,
+				658D0B979D45540938C75B75 /* Pods-ROWEBEXCHANGE-tvOSTests.debug.xcconfig */,
+				8247F4C6E87F70878256E182 /* Pods-ROWEBEXCHANGE-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CurrencyTests */ = {
+		00E356ED1AD99517003FC87E /* ROWEBEXCHANGETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CurrencyTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGETests" */;
 			buildPhases = (
 				717606D78EA8D791A8BB66A1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CurrencyTests;
-			productName = CurrencyTests;
-			productReference = 00E356EE1AD99517003FC87E /* CurrencyTests.xctest */;
+			name = ROWEBEXCHANGETests;
+			productName = ROWEBEXCHANGETests;
+			productReference = 00E356EE1AD99517003FC87E /* ROWEBEXCHANGETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Currency */ = {
+		13B07F861A680F5B00A75B9A /* ROWEBEXCHANGE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Currency" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE" */;
 			buildPhases = (
 				D1E89548B06AFD55594DD12D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = Currency;
-			productName = Currency;
-			productReference = 13B07F961A680F5B00A75B9A /* Currency.app */;
+			name = ROWEBEXCHANGE;
+			productName = ROWEBEXCHANGE;
+			productReference = 13B07F961A680F5B00A75B9A /* ROWEBEXCHANGE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Currency-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Currency-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE-tvOS" */;
 			buildPhases = (
 				1B3927FA809CC138ED5A6A31 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "Currency-tvOS";
-			productName = "Currency-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Currency-tvOS.app */;
+			name = "ROWEBEXCHANGE-tvOS";
+			productName = "ROWEBEXCHANGE-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Currency-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Currency-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE-tvOSTests" */;
 			buildPhases = (
 				0BC11C22EBAED60EAA93D98C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Currency-tvOSTests";
-			productName = "Currency-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Currency-tvOSTests.xctest */;
+			name = "ROWEBEXCHANGE-tvOSTests";
+			productName = "ROWEBEXCHANGE-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Currency" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ROWEBEXCHANGE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Currency */,
-				00E356ED1AD99517003FC87E /* CurrencyTests */,
-				2D02E47A1E0B4A5D006451C7 /* Currency-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Currency-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ROWEBEXCHANGE */,
+				00E356ED1AD99517003FC87E /* ROWEBEXCHANGETests */,
+				2D02E47A1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Currency-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ROWEBEXCHANGE-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -414,7 +414,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Currency-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ROWEBEXCHANGE-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,7 +450,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Currency-CurrencyTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,7 +463,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Currency-CurrencyTests/Pods-Currency-CurrencyTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -472,7 +472,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Currency-CurrencyTests/Pods-Currency-CurrencyTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests/Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9EBFBC08A491CCE892184ABB /* [CP] Copy Pods Resources */ = {
@@ -481,7 +481,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Currency/Pods-Currency-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ROWEBEXCHANGE/Pods-ROWEBEXCHANGE-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -490,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Currency/Pods-Currency-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROWEBEXCHANGE/Pods-ROWEBEXCHANGE-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D1E89548B06AFD55594DD12D /* [CP] Check Pods Manifest.lock */ = {
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Currency-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ROWEBEXCHANGE-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CurrencyTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ROWEBEXCHANGETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* CurrencyTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ROWEBEXCHANGETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Currency */;
+			target = 13B07F861A680F5B00A75B9A /* ROWEBEXCHANGE */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Currency-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ROWEBEXCHANGE-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB25768666FA63544000B003 /* Pods-Currency-CurrencyTests.debug.xcconfig */;
+			baseConfigurationReference = BB25768666FA63544000B003 /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CurrencyTests/Info.plist;
+				INFOPLIST_FILE = ROWEBEXCHANGETests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency.app/Currency";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROWEBEXCHANGE.app/ROWEBEXCHANGE";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 405B9CFD659F121A15DA06FE /* Pods-Currency-CurrencyTests.release.xcconfig */;
+			baseConfigurationReference = 405B9CFD659F121A15DA06FE /* Pods-ROWEBEXCHANGE-ROWEBEXCHANGETests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CurrencyTests/Info.plist;
+				INFOPLIST_FILE = ROWEBEXCHANGETests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency.app/Currency";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROWEBEXCHANGE.app/ROWEBEXCHANGE";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93737801675BB3AAE83A4240 /* Pods-Currency.debug.xcconfig */;
+			baseConfigurationReference = 93737801675BB3AAE83A4240 /* Pods-ROWEBEXCHANGE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = ROWEBEXCHANGE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Currency;
+				PRODUCT_NAME = ROWEBEXCHANGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED58E7F8C0925093A61DE01A /* Pods-Currency.release.xcconfig */;
+			baseConfigurationReference = ED58E7F8C0925093A61DE01A /* Pods-ROWEBEXCHANGE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = ROWEBEXCHANGE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Currency;
+				PRODUCT_NAME = ROWEBEXCHANGE;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE359B59A936EFF334E5612 /* Pods-Currency-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BFE359B59A936EFF334E5612 /* Pods-ROWEBEXCHANGE-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Currency-tvOS/Info.plist";
+				INFOPLIST_FILE = "ROWEBEXCHANGE-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Currency-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ROWEBEXCHANGE-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 875D043CEC12FDDE410A1AF3 /* Pods-Currency-tvOS.release.xcconfig */;
+			baseConfigurationReference = 875D043CEC12FDDE410A1AF3 /* Pods-ROWEBEXCHANGE-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Currency-tvOS/Info.plist";
+				INFOPLIST_FILE = "ROWEBEXCHANGE-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Currency-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ROWEBEXCHANGE-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 658D0B979D45540938C75B75 /* Pods-Currency-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 658D0B979D45540938C75B75 /* Pods-ROWEBEXCHANGE-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Currency-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ROWEBEXCHANGE-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Currency-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ROWEBEXCHANGE-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency-tvOS.app/Currency-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROWEBEXCHANGE-tvOS.app/ROWEBEXCHANGE-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8247F4C6E87F70878256E182 /* Pods-Currency-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8247F4C6E87F70878256E182 /* Pods-ROWEBEXCHANGE-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Currency-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ROWEBEXCHANGE-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Currency-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ROWEBEXCHANGE-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency-tvOS.app/Currency-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROWEBEXCHANGE-tvOS.app/ROWEBEXCHANGE-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CurrencyTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Currency" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Currency-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Currency-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ROWEBEXCHANGE-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Currency" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ROWEBEXCHANGE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

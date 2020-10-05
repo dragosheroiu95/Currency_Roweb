@@ -61,7 +61,7 @@ class HomeScreen extends React.Component {
     }
 
     _renderItem({ item, index }) {
-        const { exchangeRates } = this.props;
+        const { exchangeRates, base } = this.props;
         return (
             <View key={item} style={styles.carouselItem}>
                 <Image
@@ -70,7 +70,7 @@ class HomeScreen extends React.Component {
                 ></Image>
                 <View style={styles.carouselItemDetailsWrapper}>
                     <Text style={styles.carouselItemTitle}>{item}</Text>
-                    <Text>{exchangeRates ? exchangeRates[item] : '- -'}</Text>
+                    {exchangeRates ? <Text>1 {base} = {exchangeRates[item]} {item}</Text> : <Text>- -</Text>}
                 </View>
             </View>
 

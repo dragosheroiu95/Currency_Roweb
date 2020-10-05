@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Currency.app"
-               BlueprintName = "Currency"
-               ReferencedContainer = "container:Currency.xcodeproj">
+               BuildableName = "ROWEBEXCHANGE.app"
+               BlueprintName = "ROWEBEXCHANGE"
+               ReferencedContainer = "container:ROWEBEXCHANGE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "CurrencyTests.xctest"
-               BlueprintName = "CurrencyTests"
-               ReferencedContainer = "container:Currency.xcodeproj">
+               BuildableName = "ROWEBEXCHANGETests.xctest"
+               BlueprintName = "ROWEBEXCHANGETests"
+               ReferencedContainer = "container:ROWEBEXCHANGE.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Currency.app"
-            BlueprintName = "Currency"
-            ReferencedContainer = "container:Currency.xcodeproj">
+            BuildableName = "ROWEBEXCHANGE.app"
+            BlueprintName = "ROWEBEXCHANGE"
+            ReferencedContainer = "container:ROWEBEXCHANGE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Currency.app"
-            BlueprintName = "Currency"
-            ReferencedContainer = "container:Currency.xcodeproj">
+            BuildableName = "ROWEBEXCHANGE.app"
+            BlueprintName = "ROWEBEXCHANGE"
+            ReferencedContainer = "container:ROWEBEXCHANGE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

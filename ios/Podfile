@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Currency' do
+target 'ROWEBEXCHANGE' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'CurrencyTests' do
+  target 'ROWEBEXCHANGETests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'Currency' do
   end
 end
 
-target 'Currency-tvOS' do
-  # Pods for Currency-tvOS
+target 'ROWEBEXCHANGE-tvOS' do
+  # Pods for ROWEBEXCHANGE-tvOS
 
-  target 'Currency-tvOSTests' do
+  target 'ROWEBEXCHANGE-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

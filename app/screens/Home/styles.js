@@ -18,7 +18,10 @@ const styles = StyleSheet.create({
         flex: 0.3
     },
     extraDetails: {
-        fontStyle: 'italic', textAlign: 'right', padding: 5, fontSize: 12
+        fontStyle: 'italic',
+        textAlign: 'right',
+        padding: 5,
+        fontSize: 12
     },
     currencyContainer: {
         flexDirection: 'row',
@@ -63,7 +66,10 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: 'black'
     },
-    dateWrapper: { textAlign: 'center', fontSize: 20 },
+    dateWrapper: {
+        textAlign: 'center',
+        fontSize: 20
+    },
     date: {
     }
 });

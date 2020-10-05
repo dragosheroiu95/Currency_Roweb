@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 
 export const width = Dimensions.get("window").width
+export const height = Dimensions.get("window").height
 
 const styles = StyleSheet.create({
     container: {
@@ -12,15 +13,17 @@ const styles = StyleSheet.create({
     },
     metadataSectionContainer: {
         flexDirection: 'column',
-        justifyContent: 'space-between',
         padding: 20,
+        paddingTop: 40,
         flex: 0.3
+    },
+    extraDetails: {
+        fontStyle: 'italic', textAlign: 'right', padding: 5, fontSize: 12
     },
     currencyContainer: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingBottom: 50
     },
     currencyContainerTitle: {
         fontSize: 30,
@@ -41,7 +44,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: width / 1.25,
+        borderRadius: 250,
         height: 250,
         padding: 50,
         marginLeft: 25,
@@ -60,6 +63,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: 'black'
     },
+    dateWrapper: { textAlign: 'center', fontSize: 20 },
     date: {
     }
 });

@@ -91,9 +91,7 @@ class HomeScreen extends React.Component {
                         ></Image>
                         <Text style={styles.currencyContainerTitle}>{base}</Text>
                     </View>
-                    <Text>Dată: <Text style={styles.date}>{fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text></Text>
-                    <Text>Date actualizate la fiecare {timer / 1000} secunde</Text>
-                    <Text>Status: {isConnected ? 'Online' : 'Offline'}</Text>
+                    <Text style={styles.dateWrapper}>Ultima actualizare:{'\n'} <Text style={styles.date}>{fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text></Text>
                 </View>
                 <View style={styles.carouselContainer}>
                     <Carousel
@@ -105,6 +103,8 @@ class HomeScreen extends React.Component {
                         renderItem={({ item, index }) => this._renderItem({ item, index })}
                         onSnapToItem={index => this.setState({ activeIndex: index })} />
                 </View>
+                <Text style={styles.extraDetails}>Status: {isConnected ? 'Online' : 'Offline'}</Text>
+                <Text style={styles.extraDetails}> Actualizare la fiecare {timer / 1000} secunde</Text >
             </SafeAreaView >
         )
     }

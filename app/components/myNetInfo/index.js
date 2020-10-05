@@ -26,7 +26,7 @@ class MyNetInfo extends React.PureComponent {
         if (netInfo.isConnected) return <View />
         return (
             <View style={styles.connectionStatus}>
-                <Text style={styles.connectionText}>{'No connection'}</Text>
+                <Text style={styles.connectionText}>{'Fără conexiune'}</Text>
             </View>
         )
     }

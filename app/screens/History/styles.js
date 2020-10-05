@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         backgroundColor: 'rgba(26, 255, 146, 0.5)'
     },
-    activityIndicator: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+    activityIndicator: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(26, 255, 146, 0.5)' },
     header: { fontSize: 15, fontWeight: 'bold', color: '#08130D' },
 });
 export default styles;

@@ -35,7 +35,7 @@ class HistoryScreen extends React.Component {
 
         return isFetchingPastRates || !pastExchangeRates ?
             <View style={styles.activityIndicator}>
-                <ActivityIndicator size='large'>
+                <ActivityIndicator color='gray' size='large'>
                 </ActivityIndicator>
             </View> :
             <View style={styles.container}>

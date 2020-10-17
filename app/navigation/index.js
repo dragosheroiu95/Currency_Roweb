@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HistoryScreen, HomeScreen, SettingsScreen } from '../screens/index';
 import { SCREENS } from '../helpers/constants';
+import { COLORS } from '../helpers/config';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -10,11 +11,12 @@ const Tab = createBottomTabNavigator();
 function NavigationTabs() {
     return (
         <Tab.Navigator tabBarOptions={{
-            style: { backgroundColor: 'rgba(26, 255, 146, 0.5)' },
+            style: { backgroundColor: COLORS.CELADON },
             tabStyle: { justifyContent: 'center' },
-            inactiveBackgroundColor: 'rgb(234,232,228)',
-            activeTintColor: 'gray',
-            activeBackgroundColor: 'rgba(26, 255, 146, 1)',
+            inactiveBackgroundColor: COLORS.LIME,
+            activeTintColor: COLORS.TEXT,
+            inactiveTintColor: COLORS.TEXT,
+            activeBackgroundColor: COLORS.CAMBRIDGE_BLUE,
             allowFontScaling: true
         }}>
             <Tab.Screen name={SCREENS.DASHBOARD_SCREEN} component={HomeScreen} />

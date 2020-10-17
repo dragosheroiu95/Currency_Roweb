@@ -40,12 +40,13 @@ class HistoryScreen extends React.Component {
             </View> :
             <View style={styles.container}>
                 <View>
-                    <Text style={styles.header}> EUR  {'<->'} RON  ({start_at} - {end_at})</Text>
+                    <Text style={styles.header}>EUR&emsp;-&emsp;RON
+                    </Text>
                     <LineChart
                         data={{
-                            labels: Object.keys(pastExchangeRates).map(day => moment(day).format('DD MMM')),
+                            labels: Object.keys(pastExchangeRates).sort().map(day => moment(day).format('DD')),
                             datasets: [{
-                                data: Object.keys(pastExchangeRates).map(day => pastExchangeRates[day]['RON'])
+                                data: Object.keys(pastExchangeRates).sort().map(day => pastExchangeRates[day]['RON'])
                             }]
                         }}
                         width={width - 20}
@@ -59,20 +60,23 @@ class HistoryScreen extends React.Component {
                             }
                         }}
                     />
+                    <Text style={styles.dateInterval}>{moment(start_at).format('DD MMMM')} - {moment(end_at).format('DD MMMM')}</Text>
                 </View>
                 <View>
-                    <Text style={styles.header}> EUR  {'<->'} USD  ({start_at} - {end_at})</Text>
+                    <Text style={styles.header}>EUR&emsp;-&emsp;USD
+                    </Text>
                     <BarChart
                         data={{
-                            labels: Object.keys(pastExchangeRates).map(day => moment(day).format('DD MMM')),
+                            labels: Object.keys(pastExchangeRates).sort().map(day => moment(day).format('DD')),
                             datasets: [{
-                                data: Object.keys(pastExchangeRates).map(day => pastExchangeRates[day]['USD'])
+                                data: Object.keys(pastExchangeRates).sort().map(day => pastExchangeRates[day]['USD'])
                             }]
                         }}
                         width={width - 20}
                         height={height / 3.5}
                         chartConfig={chartConfig}
                     />
+                    <Text style={styles.dateInterval}>{moment(start_at).format('DD MMMM')} - {moment(end_at).format('DD MMMM')}</Text>
                 </View>
             </View>
     }

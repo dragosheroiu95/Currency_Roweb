@@ -22,7 +22,7 @@ class SettingsScreen extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.settingWrapper}>
-                    <Text>Monedă</Text>
+                    <Text style={styles.currencyTitle}>Monedă</Text>
                     <Picker
                         selectedValue={base}
                         style={styles.pickerStyle}
@@ -34,7 +34,7 @@ class SettingsScreen extends React.Component {
                 </View>
 
                 <View style={styles.settingWrapper}>
-                    <Text>Timpul de reîmprospătare (secunde)</Text>
+                    <Text style={styles.refeshTimeTitle}>Timpul de reîmprospătare (secunde)</Text>
                     <Picker
                         selectedValue={timer}
                         style={styles.pickerStyle}

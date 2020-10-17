@@ -2,13 +2,20 @@ import {
     StyleSheet,
     Dimensions
 } from 'react-native';
+import { COLORS } from '../../helpers/config';
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'space-evenly',
-        backgroundColor: 'rgba(26, 255, 146, 0.5)'
+        backgroundColor: COLORS.CELADON
+    },
+    refeshTimeTitle: {
+     color: COLORS.TEXT   
+    },
+    currencyTitle: {
+     color: COLORS.TEXT   
     },
     settingWrapper: {
         flexDirection: 'column',

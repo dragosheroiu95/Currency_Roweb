@@ -44,6 +44,7 @@ class HomeScreen extends React.Component {
             }
             // Fetch every ${timer} seconds
             this.interval = setInterval(() => {
+                console.log(this.props.isConnected)
                 if (!this.props.isFetching && this.props.isConnected) {
                     fetchExchangeRates(this.props.base)
                 }
@@ -70,7 +71,7 @@ class HomeScreen extends React.Component {
                 ></Image>
                 <View style={styles.carouselItemDetailsWrapper}>
                     <Text style={styles.carouselItemTitle}>{item}</Text>
-                    {exchangeRates ? <Text>1 {base} = {exchangeRates[item]} {item}</Text> : <Text>- -</Text>}
+                    {exchangeRates ? <Text>1 {base} = {Number(exchangeRates[item]).toFixed(4)} {item}</Text> : <Text>- -</Text>}
                 </View>
             </View>
 
@@ -91,7 +92,9 @@ class HomeScreen extends React.Component {
                         ></Image>
                         <Text style={styles.currencyContainerTitle}>{base}</Text>
                     </View>
-                    <Text style={styles.dateWrapper}>Ultima actualizare:{'\n'} <Text style={styles.date}>{fetchedDate ? moment(fetchedDate).format('DD MMM YYYY, HH:mm:ss') : ''}</Text></Text>
+                    <Text style={styles.dateWrapper}>Ultima actualizare:{'\n'}
+                        <Text style={styles.date}>{fetchedDate ? moment(fetchedDate).format('DD MMM YYYY HH:mm:ss') : ''}</Text>
+                    </Text>
                 </View>
                 <View style={styles.carouselContainer}>
                     <Carousel
